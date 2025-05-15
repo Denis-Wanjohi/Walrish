@@ -6,7 +6,7 @@
             <div class="md:flex "  :class="[index % 2 == 1 ? 'flex-row-reverse lg:p-20 p-2' : '']" >
                 <div class="md:w-1/2 md:pl-10 pl-5 md:mt-30">
                 <h3 class="cinzel-700 text-center sm:text-2xl text-xl text-[#FFA500]"  data-aos="flip-up">{{service.title}}</h3>
-                <p class="lora-500 text-sm leading-6 lg:pr-20">{{ service.description }}</p>
+                <p class="lora-500 sm:text-md text-sm leading-6 lg:pr-20">{{ service.description }}</p>
                 <div class="mt-2" v-for="(s, index) in service.services" :key="index">
                     <p class="text-slate-300"> - {{ s }}</p>
                 </div>
