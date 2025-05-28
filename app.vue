@@ -13,6 +13,48 @@
 </template>
 
 <script setup>
+useHead({
+  title: 'Walrish Contractors',
+  meta: [
+    {
+      name: 'description',
+      content: 'Walrish Contractors is a leading construction company specializing in residential and commercial projects. We are committed to delivering high-quality construction services with a focus on safety, sustainability, and customer satisfaction.'
+    }
+  ]
+})
+useSeoMeta({
+  title: 'Walrish Contractors',
+  description: 'Leading construction company specializing in residential and commercial projects. We are committed to delivering high-quality construction services with a focus on safety, sustainability, and customer satisfaction.',
+  image: 'https://img.freepik.com/free-photo/building-new-concrete-house_1398-2995.jpg?uid=R159964388&ga=GA1.1.825660883.1729923843&semt=ais_hybrid&w=740',
+  url: 'https://walrish-contractors.com'
+})
+useSeoMeta({
+  ogTitle: 'Warlish Contractors',
+  ogDescription: 'Leasding construction company specializing in residential and commercial projects. We are committed to delivering high-quality construction services with a focus on safety, sustainability, and customer satisfaction.',
+  ogImage: '/image.png',
+  ogUrl: 'https://walrish-contractors.com',
+  twitterTitle: 'Walrish Contractors - twitter',
+  twitterDescription: '[twitter:description]',
+  twitterImage: '[twitter:image]',
+  twitterCard: 'summary',
+  facebookTitle: '[facebook:title]',
+  facebookDescription: '[facebook:description]',
+  facebookImage: '/image.png',
+  facebookUrl: '[facebook:url]',
+})
+
+useHead({
+  htmlAttrs: {
+    lang: 'en'
+  },
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicon.png'
+    }
+  ]
+})
 </script>
 
 <style>
