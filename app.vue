@@ -3,13 +3,9 @@
    <Hero class="text-white"></Hero>
   </main> -->
   <main>
-    <Hero2 id=""/>
-    <About id="about_us"/>
-    <Services id="services"/>
-    <Statistics/>
-    <Testimonials/>
-    <Footer id="contacts"/>
+    <NuxtPage></NuxtPage>
   </main>
+  
 </template>
 
 <script setup>
@@ -51,7 +47,7 @@ useHead({
     {
       rel: 'icon',
       type: 'image/png',
-      href: '/favicon.png'
+      href: '/logo.png'
     }
   ]
 })
