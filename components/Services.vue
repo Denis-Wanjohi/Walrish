@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen   bg-black text-white overflow-hidden pb-20 lg:pb-10">
+    <div class="w-11/12   bg-black text-white overflow-hidden pb-20 lg:pb-10">
         <h2 class=" lg:text-[100px] md:text-[70px] text-[50px] jost-900 text-white  absolute lg:left-[30%] left-[10%] animate__animated animate__fadeInDown ">Our Services</h2>
         <div class="md:mt-0 mt-20"></div>
         <div  v-for="(service, index) in w_services" :key="index">

@@ -1,6 +1,6 @@
 <template>
     <div
-        class="overflow-x-auto hide-scrollbar bg-[url('https://media.gettyimages.com/id/471091557/photo/architectural-plan-for-a-home.jpg?s=612x612&w=0&k=20&c=niNuxRftNSwoX9YMCTOX3Ms9zmER_enbfffwvwq5Wnk=')]">
+        class="overflow-x-auto hide-scrollbar w-full bg-[url('https://media.gettyimages.com/id/471091557/photo/architectural-plan-for-a-home.jpg?s=612x612&w=0&k=20&c=niNuxRftNSwoX9YMCTOX3Ms9zmER_enbfffwvwq5Wnk=')]">
         <div class="flex justify-evenly py-10">
             <div class=" w-fit text-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <p class="sm:text-[70px] text-[40px] jost-900">20+</p>

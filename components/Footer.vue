@@ -1,11 +1,11 @@
 <template>
-    <footer class="bg-black border-t text-white px-1 py-10 sm:flex justify-around">
+    <footer class="bg-black border-t text-white  py-10 sm:flex justify-around">
         <div class="sm:w-3/12">
             <img src="/image.png" alt="Logo" class=" mx-auto">
             <p class="lg:text-center lora-500"> Trusted construction company delivering quality-driven residential, commercial, and civil projects. Built on excellence, integrity, and timely execution — we bring your vision to life with precision and care.</p>
         </div>
-        <div class="sm:w-4/12">
-            <h3 class="text-center text-3xl cinzel-500 underline">Services</h3>
+        <div class="sm:w-4/12 ">
+            <h3 class="text-center text-3xl cinzel-500 ">Services</h3>
             <div class="grid grid-cols-2 text-sm  lg:text-center px-1">
                 <p>-Residential Construction</p>
                 <p>-Structural and Finishing Works</p>
@@ -23,8 +23,8 @@
                 <p>-Room Additions and Extensions</p>
             </div>
         </div>
-        <div class="sm:w-3/12">
-            <h3 class="text-center text-3xl cinzel-500 underline">Contacts</h3>
+        <div class="sm:w-2/12  ">
+            <h3 class="text-center text-3xl cinzel-500 ">Contacts</h3>
             <div class="text-center leading-10">
                 <p>walrishafrica@gmail.com</p>
                 <p>+254702841930</p>

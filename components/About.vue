@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen bg-black text-white h-fit">
+    <div class="w-full bg-black text-white h-fit">
         <h2 class=" lg:text-[100px] md:text-[70px] text-[50px] jost-900 text-white  absolute md:left-[40%] left-[10%] animate__animated animate__fadeInDown">ABOUT US</h2>
         <div class="w-full h-full md:flex">
             <div class="md:w-1/2 md:block hidden ">
@@ -8,7 +8,7 @@
                 :src="image"
                 alt="walrish_contractors">
             </div>
-            <div class="lg:px-10 px-5 pt-30 md:w-1/2" >
+            <div class="lg:pl-10  px-5 pt-30 md:w-1/2" >
                 <h2 class="cinzel-700 text-center text-2xl  text-[#FFA500]  animate__animated animate__zoomIn">Crafting Structures, Creating Futures</h2>
                 <p class="lora-500 text-sm leading-6">We are committed to shaping environments that stand the test of time. Our mission is to turn your ideas into strong, functional structures through expert planning, quality craftsmanship, and dependable project execution.
 
