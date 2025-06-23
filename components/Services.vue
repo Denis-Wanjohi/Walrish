@@ -1,11 +1,11 @@
 <template>
     <div class="w-11/12   bg-black text-white overflow-hidden pb-20 lg:pb-10">
-        <h2 class=" lg:text-[100px] md:text-[70px] text-[50px] jost-900 text-white  absolute lg:left-[30%] left-[10%] animate__animated animate__fadeInDown ">Our Services</h2>
+        <h2 class=" lg:text-[100px] md:text-[70px] text-[49px] jost-900 text-white absolute lg:left-[30%]  animate__animated animate__fadeInDown ">Our Services</h2>
         <div class="md:mt-0 mt-20"></div>
         <div  v-for="(service, index) in w_services" :key="index">
             <div class="md:flex "  :class="[index % 2 == 1 ? 'flex-row-reverse lg:p-20 p-2' : '']" >
                 <div class="md:w-1/2 md:pl-10 pl-5 md:mt-30">
-                <h3 class="cinzel-700 text-center sm:text-2xl text-xl text-[#FFA500]"  data-aos="flip-up">{{service.title}}</h3>
+                <h3 class="cinzel-700 text-center sm:text-2xl text-xl  text-[#FFA500]"  data-aos="flip-up">{{service.title}}</h3>
                 <p class="lora-500 sm:text-md text-sm leading-6 lg:pr-20">{{ service.description }}</p>
                 <div class="mt-2" v-for="(s, index) in service.services" :key="index">
                     <p class="text-slate-300"> - {{ s }}</p>
